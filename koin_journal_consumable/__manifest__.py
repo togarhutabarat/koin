@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    "name": "KOIN - Product Labor",
+    "name": "KOIN - Journal on Consumables",
 
     "summary": """
     """,
     "description": """
-        This module will add a new product type: Labor. When product with Labor type is used in stock move (in or out), it will generate journal entry.
+        By using this module, any movement (in or out or production move) for consumable products will generate journal entry.
     """,
 
     "author": "KOIN - Togar Hutabarat",
