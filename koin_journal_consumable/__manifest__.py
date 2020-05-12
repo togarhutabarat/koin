@@ -14,6 +14,7 @@
     "version": "0.1",
     "depends": ["base", "stock_account"],
     "data": [
+        "views/product_template_view.xml"
     ],
     "demo": [
     ],

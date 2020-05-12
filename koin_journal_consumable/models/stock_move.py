@@ -7,8 +7,7 @@ class StockMove(models.Model):
     _inherit = "stock.move"
 
     def _account_entry_move(self):
-        if self.product_id.type in ["labor", "consu"]:
-            print("LABOR")
+        if self.product_id.type in ["consu"] and self.product_id.journal_on_move:
             location_from = self.location_id
             location_to = self.location_dest_id
             company_from = self.mapped("move_line_ids.location_id.company_id") if self._is_out() else False
